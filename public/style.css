@@ -11,8 +11,30 @@ body {
   height: 100vh;
   width: 100vw;
 }
-#marker {
+/* #marker {
   height: 32px;
   width: 32px;
   background-image: url("http://i.imgur.com/WbMOfMl.png")
+} */
+#nav {
+  height: 5vh;
+  width: 100vw;
+  background-color: blue
+}
+#itinerary {
+  height: 50%;
+  width: 30vw;
+  background-color: grey;
+  z-index: 2
+}
+section {
+  display: flex;
+  align-items: center;
+
+}
+#option-panel{
+  height: 50%;
+  width: 30vw;
+  background-color: grey;
+  z-index: 2
 }
